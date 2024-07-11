@@ -7,18 +7,15 @@ Developed with the MERN Stack and Redux, this application provides a comprehensi
 ## 📦 Installation Instructions
 
 1. Clone the repository:
+
    ```sh
-  ? git clone https://github.com/yourusername/hostel-management-app.git
+   ?git clone  https://github.com/RAJAKSURAJ/attendancemanagemnet-backend.git
    ```
-2. Navigate to the project directory:
-   ```sh
-   <!-- cd hostel-management-app -->
-   ```
-3. Install backend dependencies:
+
+2. Install backend dependencies:
    ```sh
    npm install
    ```
-
 
 ### 🛠️ Setup the .env File
 
@@ -49,6 +46,7 @@ JWT_SECRET=Your JWT Secret Key
 ## 📂 Project Structure
 
 The project structure includes:
+
 - Backend: Contains the server-side code and APIs
 - Frontend: Contains the client-side code and React components
 - Redux: Used for state management
@@ -72,13 +70,3 @@ JWT_SECRET=Your JWT Secret Key
    ```sh
    npm run server
    ```
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit pull requests or open issues for any improvements or bug fixes.
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----

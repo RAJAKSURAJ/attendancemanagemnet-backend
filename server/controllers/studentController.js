@@ -13,7 +13,7 @@ const addStudent = asyncHandler(async (req, res) => {
     fatherContact,
     image,
     rollNo,
-    // blockNo,
+
     status,
   } = req.body;
 
@@ -33,7 +33,7 @@ const addStudent = asyncHandler(async (req, res) => {
     fatherContact,
     image,
     rollNo,
-    // blockNo,
+
     status,
   });
 
@@ -48,7 +48,7 @@ const addStudent = asyncHandler(async (req, res) => {
       fatherContact: student.fatherContact,
       image: student.image,
       rollNo: student.rollNo,
-      // blockNo: student.blockNo,
+
       status: student.status,
     });
   } else {
@@ -68,7 +68,7 @@ const updateStudentProfile = asyncHandler(async (req, res) => {
     student.fatherContact = req.body.fatherContact || student.fatherContact;
     student.image = req.body.image || student.image;
     student.rollNo = req.body.rollNo || student.rollNo;
-    // student.blockNo = req.body.blockNo || student.blockNo;
+
     student.status = req.body.status || student.status;
     const updatedStudent = await student.save();
 
@@ -82,7 +82,7 @@ const updateStudentProfile = asyncHandler(async (req, res) => {
       fatherContact: updatedStudent.fatherContact,
       image: updatedStudent.image,
       rollNo: updatedStudent.rollNo,
-      // blockNo: updatedStudent.blockNo,
+
       status: updatedStudent.status,
     });
   } else {
