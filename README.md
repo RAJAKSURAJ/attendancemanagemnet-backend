@@ -9,7 +9,7 @@ Developed with the MERN Stack and Redux, this application provides a comprehensi
 1. Clone the repository:
 
    ```sh
-   ?git clone  https://github.com/RAJAKSURAJ/attendancemanagemnet-backend.git
+   ? git clone [https://github.com/RAJAKSURAJ/attendancemanagemnet-backend.git](https://github.com/RAJAKSURAJ/attendancemanagemnet-backend.git)
    ```
 
 2. Install backend dependencies:
